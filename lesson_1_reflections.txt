@@ -1,0 +1,63 @@
+How did viewing a diff between two versions of a file help you see a bug
+that was introduced?
+
+By comparing lines with differences, viewing a diff between two versions
+of a file pinpointed what normally would have only been discovered by
+scanning both whole documents line by line while constantly looking 
+back-and-forth between the two documents. This was really emphasized
+with the first exercise because it took me much longer than I had
+anticipated to spot the "1" and the "i" that it was changed to.
+I thought of the possibility of there being an error in the first
+exercise, but it turned out that it was just difficult to spot.
+
+How could having easy access to the entire history of file make you a 
+more efficient programmer in the long run?
+
+By reviewing the history of the changes of your program, you can see
+what errors you made that had to be changed and learn from them, you
+could also see how you progressed from concept to implementation and
+possibly adjust your approach based on that history the next time around.
+Possibly most importantly, you can easily revert back to a previous
+version of your program if you realized that you made an error.
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?
+
+There may be times when you forget to commit. It's possible that you
+will "be in the zone" and stopping to commit could interrupt your flow.
+On the other hand, your commits will probably be much more meaningful
+if you choose when to commit. It will be easier to read the version
+history of the project.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+Some projects use multiple related files so tracking changes by saving
+multiple files in on commit makes sense because a change to one file
+could affect the other files.  Other types of projects that do not have
+many related files are fine to be treated separately.
+
+How can you use the commands git log and git diff to view the history of
+files?
+
+By using git log you pull up a list of commits with descriptions. Once
+you identify the commits you want to compare, you use the command git
+diff with the older commit ID, a space, and then the newer commit ID.
+Once you run that command you will be able to view the changes. 
+The changes are indicated by additions and deletions by line.
+
+How might using version control make you more confident to make changes
+that could break something?
+
+Because you have the ability to revert back to a previous version of
+your project, you don't have to be afraid to make creative changes or
+take risks. This gives you the confidence to keep moving forward and
+adding interesting features!
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+
+I would like to use it for a real project, or at least with an example
+project. I am eager to create a web app.
