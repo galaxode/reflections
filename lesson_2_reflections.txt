@@ -33,3 +33,10 @@ How do the diagrams help you visualize the branch structure?
 By creating a diagrm you can see the time line or path of all of the commits for the project
 in one snapshot.  It allows you what the branches look like in relation to each other and what
  previosu commits have been included in the tip (most current commmit) of each branch.
+
+What is the result of merging branches together? Why do we represent it in the diagram the way
+we do?
+
+Branches combine all the commits made in each branch. In the diagram it helps to be able to see
+how the branches were combined and the parent paths that lead to the two branch tips that were
+merged in order to track history.
