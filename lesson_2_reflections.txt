@@ -13,3 +13,10 @@ contains all the files and can have uncommitted files in it.  The repository is
 everything that is committed...?  Actually I'm a little unclear about the difference
 between the working directory and repo.  I think the working directory is also the
 repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare the staging area with the working directory and also compare it to
+the repository.  Before making the actual commit you have to add the files that have
+been changed into the staging area. You also perform git status to see which changes are
+in the staging area and which are not.
