@@ -20,3 +20,16 @@ You can compare the staging area with the working directory and also compare it 
 the repository.  Before making the actual commit you have to add the files that have
 been changed into the staging area. You also perform git status to see which changes are
 in the staging area and which are not.
+
+What are some situations where branches would be helpful in keeping your history
+organized? How would brances help?
+
+Sometimes you'll want to expirement with changes to your code without affecting your main branch
+Creating a new branch allows you to do this. You might want to do this if you are working on
+more than one enhancement and would like to be able to go back to the master branch easily.
+
+How do the diagrams help you visualize the branch structure?
+
+By creating a diagrm you can see the time line or path of all of the commits for the project
+in one snapshot.  It allows you what the branches look like in relation to each other and what
+ previosu commits have been included in the tip (most current commmit) of each branch.
