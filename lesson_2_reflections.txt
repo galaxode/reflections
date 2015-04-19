@@ -40,3 +40,9 @@ we do?
 Branches combine all the commits made in each branch. In the diagram it helps to be able to see
 how the branches were combined and the parent paths that lead to the two branch tips that were
 merged in order to track history.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Simple merges can be done automatically, and this is conventient for the user. When the merges
+have a conflict it helps to show this to the user and allow them to decide which lines/changes
+to the code to keep.
