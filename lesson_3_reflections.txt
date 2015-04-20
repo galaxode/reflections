@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When you are collaborating with others you would not want to keep all your work local.
+By doing this you can invite input from others to enhance your build whcih, you can choose
+to use or not, and it also works as a backup of your local copy.
